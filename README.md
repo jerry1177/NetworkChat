@@ -15,7 +15,9 @@ will be listening on. The server Application must be running in order for you to
 You can download the executable .jar files in the "exec" folder and run the application.
 The server application must be running in order for the client application to connect to the chat room. 
 The server application can only be run in the terminal or console. You need to enter a port number that the server application
-will be listening on as a parameter for the server application.
+will be listening on as a parameter for the server application.Once ther server is running, you can double click on the NetworkChat.jar executable file and you should be good to go. 
+
+You don't have to wait to start the server application in order to start the client application, but you won't be able to enter the private secure chatroom until you have the server application up and running.
 
 # Example
 java -jar NetworkChatServer.jar [Port]
@@ -25,7 +27,3 @@ java -jar NetworkChatServer.jar 3000
 
 If you copy and paste this example into the terminal, the NetworkChat server will be listening on port 3000.
 Make sure you are in the same directory as the server application in the terminal when you run this command.
-
-Once ther server is running, you can double click on the NetworkChat.jar executable file and you should be good
-to go. You don't have to wait to start the server application in order to start the client application, but you 
-won't be able to enter the private secure chatroom until you have the server application up and running.
